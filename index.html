@@ -1,26 +1,841 @@
 <!doctype html>
 <html lang="ru">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Стоматология «Абл» — Краснодар</title>
-<meta name="description" content="Стоматология «Абл» на Уральской улице в Краснодаре.">
-<meta property="og:title" content="Стоматология «Абл» — Краснодар"><meta property="og:description" content="Диагностика и лечение в одном месте, внимательное сопровождение и комфорт."><meta property="og:image" content="public/og.png">
-<link rel="icon" href="public/favicon.png">
+<meta name="description" content="Стоматология «Абл» на Уральской улице в Краснодаре. Диагностика и лечение в одном месте, внимательная команда, честный план лечения.">
+<meta property="og:title" content="Стоматология «Абл» — Краснодар">
+<meta property="og:description" content="Диагностика и лечение в одном месте, внимательное сопровождение и комфорт на каждом приёме.">
+<meta property="og:image" content="public/og.png">
+<link rel="icon" href="public/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Golos+Text:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-:root{--ink:#17211f;--cream:#f4f0e8;--paper:#fbfaf6;--accent:#caa85f;--green:#163b35;--line:#d8d2c6}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--cream);font-family:Arial,Helvetica,sans-serif;overflow-x:hidden}a{color:inherit}img{display:block;max-width:100%}::-webkit-scrollbar{width:10px}::-webkit-scrollbar-thumb{background:var(--green);border-radius:10px}.preloader{position:fixed;z-index:100;inset:0;background:var(--green);display:grid;place-content:center;gap:30px;color:#fff;transition:.5s}.preloader.hide{opacity:0;visibility:hidden}.logo{font-size:44px;font-weight:900;letter-spacing:-.08em}.logo small{font-size:10px;font-weight:400;letter-spacing:.18em;text-transform:uppercase;margin-left:10px}.load{width:320px;height:2px;background:#ffffff30}.load i{display:block;width:100%;height:100%;background:var(--accent);animation:load 1s both}.progress{position:fixed;z-index:70;top:0;left:0;width:0;height:3px;background:var(--accent)}.header{position:fixed;z-index:60;top:3px;left:0;right:0;height:82px;padding:0 clamp(20px,7vw,110px);display:flex;align-items:center;justify-content:space-between;color:#fff;background:#112c26b3;backdrop-filter:blur(12px);transition:.3s}.header.compact{height:62px;background:#112c26e8}.header nav{display:flex;gap:28px}.header nav a{text-decoration:none;font-size:13px;position:relative}.header nav a:after{content:'';position:absolute;left:0;right:100%;bottom:-12px;height:2px;background:var(--accent);transition:.3s}.header nav a:hover:after{right:0}.call{padding:11px 17px;border:1px solid #ffffff55;border-radius:99px;text-decoration:none;font-size:13px}.hero{min-height:100svh;position:relative;display:flex;align-items:center;color:#fff;padding:130px clamp(20px,7vw,110px) 170px;overflow:hidden;clip-path:polygon(0 0,100% 0,100% 93%,72% 97%,37% 94%,0 100%)}.hero-image{position:absolute;inset:0 0 0 auto;width:52%;height:100%;object-fit:cover;object-position:center 44%;background:#20332e;animation:zoom 5s both}.wash{position:absolute;inset:0;background:linear-gradient(90deg,#102b27f5 0%,#183b34dd 34%,#173d3722 55%,transparent 70%),linear-gradient(0deg,#0d211f9d,transparent 45%)}.hero-content{position:relative;max-width:760px;margin-top:72px;padding-left:clamp(8px,2vw,28px);animation:rise .8s 1.1s both}.eyebrow,.kicker{text-transform:uppercase;letter-spacing:.18em;font-size:11px;font-weight:bold}.eyebrow{color:#f0ddb3}.hero h1,h2{font-family:Georgia,serif;font-weight:400;letter-spacing:-.05em}.hero h1{font-size:clamp(48px,7vw,108px);line-height:.93;margin:23px 0}.hero p{font-size:clamp(17px,1.5vw,22px);line-height:1.55;max-width:600px;color:#f7f3e9d9}.buttons{display:flex;gap:25px;align-items:center;margin-top:32px}.button{padding:16px 23px;border-radius:99px;text-decoration:none;font-size:14px;font-weight:bold}.gold{background:var(--accent);color:#162522}.hero-stats{position:absolute;left:clamp(20px,7vw,110px);bottom:70px;display:flex;gap:clamp(25px,7vw,90px)}.hero-stats b{display:block;font:31px Georgia,serif;font-weight:400}.hero-stats span{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#ffffffb5}.section{padding:clamp(85px,10vw,155px) clamp(20px,7vw,110px)}.about{display:grid;grid-template-columns:1fr 1fr;gap:10vw}.kicker{color:#856a35;margin-bottom:24px}h2{font-size:clamp(45px,6vw,85px);line-height:1;margin:0}.about p.lead{font:clamp(22px,2.1vw,31px)/1.45 Georgia,serif}.facts{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin:40px 0}.facts span{border-top:1px solid var(--line);padding-top:13px;font-size:13px}.note{font-size:12px;line-height:1.6;color:#766f64}.dark{background:var(--green);color:#f7f3e9}.heading{display:flex;justify-content:space-between;align-items:end;gap:45px;margin-bottom:60px}.heading>p{max-width:400px;line-height:1.7;color:#cbd3cf}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #ffffff26}.service{min-height:330px;padding:25px;border-right:1px solid #ffffff26;position:relative;transition:transform .4s,background .4s,box-shadow .4s;overflow:hidden}.service:before{content:"";position:absolute;inset:12px;border:1px solid transparent;transform:scale(.96);transition:.4s;pointer-events:none}.service:hover{transform:translateY(-10px);background:#1e4b43;box-shadow:0 18px 45px #071d183d}.service:hover:before{border-color:var(--accent);transform:scale(1)}.service h3{font:35px Georgia,serif;margin:90px 0 18px}.service p{line-height:1.6;color:#d5ddd9}.service a{position:absolute;right:22px;bottom:22px;text-decoration:none;color:var(--accent);font-size:13px}.experience{display:grid;grid-template-columns:1.05fr .95fr;gap:8vw;align-items:center}.experience img{width:100%;height:600px;object-fit:cover;filter:saturate(.7)}blockquote{font:italic 27px/1.4 Georgia,serif;border-left:2px solid var(--accent);padding-left:22px}.gallery-grid{display:grid;grid-template-columns:1.4fr .8fr .8fr;gap:14px;height:610px}.gallery-grid button{padding:0;border:0;overflow:hidden;cursor:zoom-in;background:#ddd;position:relative}.gallery-grid img{width:100%;height:100%;object-fit:cover;transition:.5s}.gallery-grid button:hover img{transform:scale(1.05)}.gallery-grid span{position:absolute;top:16px;left:16px;background:#fff;padding:10px;border-radius:50%;font-size:11px}.video-section{display:grid;grid-template-columns:1fr 1fr;gap:8vw;align-items:center;background:var(--paper)}.video-copy p{max-width:480px;line-height:1.7;color:#766f64;margin:26px 0}.video-poster{position:relative;display:block;min-height:420px;overflow:hidden}.video-poster img{width:100%;height:100%;object-fit:cover;transition:.5s}.video-poster:hover img{transform:scale(1.04)}.video-poster span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:76px;height:76px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--green);font-size:25px}.vk-news{background:var(--cream)}.news-track{display:flex;gap:15px;overflow:auto;scrollbar-width:none}.news-card{flex:0 0 min(32vw,420px);min-height:300px;padding:30px;background:var(--paper);border:1px solid var(--line);display:flex;flex-direction:column;transition:.35s}.news-card:hover{transform:translateY(-8px);border-color:var(--accent);box-shadow:0 15px 30px #10231d18}.news-card span{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#856a35}.news-card h3{font:34px Georgia,serif;margin:58px 0 15px}.news-card p{line-height:1.6;color:#766f64}.news-card a{margin-top:auto;color:var(--green);font-size:13px}.rating{display:flex;gap:15px;align-items:center}.rating b{font:42px Georgia,serif}.review-track{display:flex;gap:15px;overflow:auto;scrollbar-width:none}.review{flex:0 0 min(30vw,400px);min-height:385px;background:var(--paper);padding:30px;display:flex;flex-direction:column}.review p{font:19px/1.5 Georgia,serif}.review footer{margin-top:auto;border-top:1px solid var(--line);padding-top:18px;display:flex;justify-content:space-between;font-size:12px}.review footer a{color:#7c725f}.controls{margin-top:25px}.controls button{width:44px;height:44px;border:1px solid var(--line);background:transparent;border-radius:50%;cursor:pointer}.contact{display:grid;grid-template-columns:.8fr 1.2fr;gap:5vw}.phone{font:clamp(25px,3vw,46px) Georgia,serif;text-decoration:none;display:block;margin:40px 0 22px}.map{min-height:560px;position:relative}.map iframe{border:0;width:100%;height:100%;filter:grayscale(.8) sepia(.1)}.map-card{position:absolute;left:20px;bottom:20px;background:#fbf8f1;color:var(--ink);padding:17px 20px;box-shadow:0 12px 35px #07151138}.map-card b{font:25px Georgia,serif;display:block}.map-card small{display:block;margin-top:4px}.footer{padding:45px clamp(20px,7vw,110px);display:flex;justify-content:space-between;gap:30px;background:#0e2924;color:#fff}.footer p{font-size:11px;color:#ffffff80;max-width:390px}.footer-links{display:flex;gap:18px;font-size:12px}.lightbox[hidden]{display:none!important}.lightbox{position:fixed;z-index:90;inset:0;background:#071411ed;display:grid;place-items:center}.lightbox img{max-width:90vw;max-height:78vh}.lightbox button{position:absolute;top:20px;right:20px;border:0;border-radius:50%;width:44px;height:44px}.quick{position:fixed;right:18px;bottom:18px;z-index:65;display:flex;gap:7px}.quick a{width:46px;height:46px;border-radius:50%;background:var(--accent);display:grid;place-items:center;text-decoration:none;color:var(--green)}@keyframes load{from{width:0}to{width:100%}}@keyframes zoom{from{transform:scale(1.02)}to{transform:scale(1)}}@keyframes rise{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:none}}@media(max-width:900px){.header nav{display:none}.about,.experience,.contact{grid-template-columns:1fr}.service-grid{grid-template-columns:1fr 1fr}.service:nth-child(2){border-right:0}.review{flex-basis:44vw}.gallery-grid{height:500px}.footer{flex-wrap:wrap}}@media(max-width:600px){.hero-content{margin-top:24px;padding-left:0}.hero-image{width:100%;height:48%;top:auto;bottom:0;object-position:center 38%}.hero-wash{background:linear-gradient(0deg,#102b27ed 0%,#183b34aa 46%,transparent 76%)}.video-section{grid-template-columns:1fr}.video-poster{min-height:300px}.header{height:70px}.call{font-size:0;padding:11px}.call:before{content:'☎';font-size:17px}.hero{align-items:flex-start;padding-top:145px;clip-path:polygon(0 0,100% 0,100% 96%,0 100%)}.hero h1{font-size:50px}.hero p{font-size:16px}.buttons{flex-direction:column;align-items:flex-start}.hero-stats{bottom:50px;gap:18px}.hero-stats b{font-size:25px}.hero-stats div:last-child{display:none}.section{padding:80px 20px}.facts{grid-template-columns:1fr}.service-grid{grid-template-columns:1fr}.service{border-right:0;border-bottom:1px solid #ffffff26}.experience img{height:105vw}.heading{display:block}.gallery-grid{height:auto;grid-template-columns:1fr 1fr}.gallery-grid button:first-child{grid-column:1/-1;height:400px}.gallery-grid button:not(:first-child){height:230px}.review{flex-basis:85vw}.contact{display:block}.map{height:480px;margin-top:35px}.footer{display:block}.footer-links{margin-top:25px;flex-wrap:wrap}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
-</style></head><body>
-<div class="preloader" id="pre"><div class="logo">АБЛ<small>стоматология</small></div><div class="load"><i></i></div></div><div class="progress" id="progress"></div>
-<header class="header" id="header"><a class="logo" href="#top">АБЛ<small>стоматология</small></a><nav><a href="#about">О клинике</a><a href="#services">Услуги</a><a href="#reviews">Отзывы</a><a href="#contacts">Контакты</a></nav><a class="call" href="tel:+79181650111">+7 918 165-01-11</a></header>
-<section class="hero" id="top"><img src="assets/abl-clinic-main.jpg" alt="ABL Clinic exterior and interior" class="hero-image""><div class="wash"></div><div class="hero-content"><div class="eyebrow">Краснодар · Уральская, 71/3</div><h1>Лечим зубы<br>в спокойной атмосфере</h1><p>Мы проводим диагностику и лечение в одном месте, спокойно сопровождаем вас и заботимся о комфорте на каждом приёме.</p><div class="buttons"><a class="button gold" href="tel:+79181650111">Записаться по телефону</a><a href="#services">Посмотреть услуги ↓</a></div></div><div class="hero-stats"><div><b>5,0</b><span>рейтинг на Яндекс Картах</span></div><div><b>97</b><span>оценок пациентов</span></div><div><b>2026</b><span>«Хорошее место»</span></div></div></section>
-<section class="section about" id="about"><div><div class="kicker">О клинике</div><h2>Всё необходимое — рядом</h2></div><div><p class="lead">Мы работаем с ассистентом, проводим диагностику на месте и помогаем пройти комплексное лечение без лишних поездок.</p><div class="facts"><span>✓ Предварительная запись</span><span>✓ Оплата картой</span><span>✓ Доступный вход</span><span>✓ Парковка</span></div><p class="note">Факты подтверждены карточкой клиники на Яндекс Картах. Услуги и условия уточняйте при записи.</p></div></section>
-<section class="section dark" id="services"><div class="heading"><div><div class="kicker">Направления</div><h2>Сохраняем<br>и восстанавливаем улыбку</h2></div><p>Мы подбираем направление после осмотра. Стоимость конкретной процедуры, пожалуйста, уточняйте при записи.</p></div><div class="service-grid"><article class="service"><span>01</span><h3>Лечение</h3><p>Мы лечим кариес и каналы, восстанавливаем зубы и заботимся о дёснах.</p><a href="tel:+79181650111">Уточнить →</a></article><article class="service"><span>02</span><h3>Профилактика</h3><p>Мы проводим профессиональную гигиену и профилактические осмотры.</p><a href="tel:+79181650111">Уточнить →</a></article><article class="service"><span>03</span><h3>Восстановление</h3><p>Мы восстанавливаем улыбку коронками, протезами и винирами.</p><a href="tel:+79181650111">Уточнить →</a></article><article class="service"><span>04</span><h3>Хирургия</h3><p>Мы выполняем удаление зубов и проводим имплантацию по показаниям.</p><a href="tel:+79181650111">Уточнить →</a></article></div></section>
-<section class="section dark experience"><img src="public/reception-full.png" alt="Ресепшен стоматологии «Абл» с фирменной вывеской"><div><div class="kicker">Опыт пациентов</div><h2>Объясняем понятно.<br>Лечим бережно.</h2><p>Мы внимательно относимся к каждому пациенту, объясняем план лечения и поддерживаем комфортный темп на приёме.</p><blockquote>«Пришёл — выявили проблему — решили проблему»</blockquote><small>Из отзыва на Яндекс Картах</small></div></section>
-<section class="section" id="gallery"><div class="heading"><div><div class="kicker">Пространство</div><h2>Знакомое место<br>ещё до визита</h2></div><a href="https://yandex.ru/maps/org/abl/69975907341/gallery/" target="_blank">Все 53 фото ↗</a></div><div class="gallery-grid"><button data-photo="public/clinic-exterior.webp"><img src="public/clinic-exterior.webp" alt="Фасад и вход в стоматологию «Абл"><span>01</span></button><button data-photo="public/reception.webp"><img src="public/reception.webp" alt="Стойка ресепшена стоматологии «Абл"><span>02</span></button><button data-photo="public/abl-sign.webp"><img src="public/abl-sign.webp" alt="Зона ожидания стоматологии «Абл"><span>03</span></button></div></section>
-<section class="section video-section"><div class="video-copy"><div class="kicker">Видео из Яндекс Карт</div><h2>Загляните к нам</h2><p>Показываем клинику изнутри. Видео откроется в Яндекс Картах, где доступно воспроизведение.</p><a class="button gold" href="https://yandex.ru/maps/-/CTTFaPpW" target="_blank">Смотреть видео ↗</a></div><a class="video-poster" href="https://yandex.ru/maps/-/CTTFaPpW" target="_blank"><img src="public/video-poster.webp" alt="Превью второго видео из галереи клиники на Яндекс Картах"><span>▶</span></a></section><section class="section vk-news" id="news"><div class="heading"><div><div class="kicker">Из официального VK</div><h2>Наши новости</h2></div><a href="https://vk.ru/abl_clinic" target="_blank">Открыть сообщество ↗</a></div><div class="news-track"><article class="news-card"><span>Пост сообщества</span><h3>Нам 3 года!</h3><p>«Стоматология АБЛ официально стала совсем взрослой. Три года вместе с Вами». В публикации также анонсирована акция на профессиональную гигиену — условия относятся к моменту публикации.</p><a href="https://vk.ru/wall-232420923_222" target="_blank">Читать в VK →</a></article><article class="news-card"><span>Клип @abl_clinic</span><h3>Клиника в движении</h3><p>Короткое видео из официального сообщества «АБЛ Стоматология».</p><a href="https://vk.ru/clip-232420923_456239085" target="_blank">Смотреть клип →</a></article><article class="news-card"><span>Клип @abl_clinic</span><h3>Будни «Абл»</h3><p>Ещё один клип клиники — знакомимся с пространством и ежедневной работой команды.</p><a href="https://vk.ru/clip-232420923_456239067" target="_blank">Смотреть клип →</a></article></div><div class="controls"><button id="news-next">→</button> <a href="https://vk.ru/abl_clinic" target="_blank">Все публикации VK</a></div></section><section class="section" id="reviews"><div class="heading"><div><div class="kicker">Отзывы</div><h2>Ваши впечатления</h2></div><div class="rating"><b>5,0</b><span>75 отзывов · 97 оценок</span></div></div><div class="review-track" id="track"><article class="review"><div>★★★★★</div><p>Делали чистку зубов и обнаружили кариес — весь кариес убрали в один приём с чисткой и заменой пломбы. Очень быстро и безумно комфортно.</p><footer><strong>Артур К.</strong><a href="https://yandex.ru/maps/org/abl/69975907341/reviews/">Яндекс Карты</a></footer></article><article class="review"><div>★★★★★</div><p>Со мной вели диалог, всё подробно объясняли и постоянно спрашивали о самочувствии. Всё необходимое оборудование для диагностики было на месте.</p><footer><strong>Artem G.</strong><a href="https://yandex.ru/maps/org/abl/69975907341/reviews/">Яндекс Карты</a></footer></article><article class="review"><div>★★★★★</div><p>Всё быстро, чётко и, самое главное, не больно. Персонал клиники всегда вежливый и внимательный.</p><footer><strong>Анастасия Л.</strong><a href="https://yandex.ru/maps/org/abl/69975907341/reviews/">Яндекс Карты</a></footer></article><article class="review"><div>★★★★★</div><p>Очень хорошая стоматология — от сервиса до лечения зубов. Лечат быстро, без боли, в полном комфорте.</p><footer><strong>Ислам</strong><a href="https://yandex.ru/maps/org/abl/69975907341/reviews/">Яндекс Карты</a></footer></article><article class="review"><div>★★★★★</div><p>Работают действительно профессионалы, знающие своё дело. Быстро. Качественно. Ходят все члены нашей семьи.</p><footer><strong>Алексей М.</strong><a href="https://yandex.ru/maps/org/abl/69975907341/reviews/">Яндекс Карты</a></footer></article></div><div class="controls"><button id="prev">←</button> <button id="next">→</button></div></section>
-<section class="section dark contact" id="contacts"><div><div class="kicker">Контакты</div><h2>Запланируем<br>ваш визит?</h2><a class="phone" href="tel:+79181650111">+7 (918) 165-01-11</a><p>Краснодар, Уральская ул., 71, корп. 3</p><div class="buttons"><a class="button gold" href="https://t.me/ABL_clinic">Написать в Telegram</a><a class="button" href="https://yandex.ru/maps/?rtext=~45.033400%2C39.042390&rtt=auto">Построить маршрут</a></div></div><div class="map"><iframe title="Стоматология Абл на Яндекс Картах" src="https://yandex.ru/map-widget/v1/?ll=39.042390%2C45.033400&mode=search&oid=69975907341&ol=biz&z=17" allowfullscreen></iframe><div class="map-card"><b>Абл</b><span>Стоматологическая клиника · 5,0</span><small>Уральская ул., 71, корп. 3</small></div></div></section>
-<footer class="footer"><a class="logo" href="#top">АБЛ<small>стоматология</small></a><p>На сайте — справочная информация. Мы расскажем об услугах и условиях при записи.</p><div class="footer-links"><a href="https://vk.ru/abl_clinic">VK</a><a href="https://t.me/ABL_clinic">Telegram</a><a href="https://yandex.ru/maps/org/abl/69975907341">Яндекс Карты</a></div></footer><div class="quick"><a href="tel:+79181650111">☎</a><a href="#top">↑</a></div><div class="lightbox" id="lightbox" hidden><button id="close">×</button><img id="lightimg" alt="Просмотр фотографии"></div>
-<script>const pre=document.getElementById('pre'),header=document.getElementById('header'),progress=document.getElementById('progress');setTimeout(()=>pre.classList.add('hide'),1200);addEventListener('scroll',()=>{header.classList.toggle('compact',scrollY>40);progress.style.width=(scrollY/(document.documentElement.scrollHeight-innerHeight)*100)+'%'});const track=document.getElementById('track');document.getElementById('prev').onclick=()=>track.scrollBy({left:-track.clientWidth*.75,behavior:'smooth'});document.getElementById('news-next').onclick=()=>document.querySelector('.news-track').scrollBy({left:320,behavior:'smooth'});document.getElementById('next').onclick=()=>track.scrollBy({left:track.clientWidth*.75,behavior:'smooth'});const light=document.getElementById('lightbox'),li=document.getElementById('lightimg');document.querySelectorAll('[data-photo]').forEach(b=>b.onclick=()=>{li.src=b.dataset.photo;light.hidden=false});document.getElementById('close').onclick=()=>light.hidden=true;light.onclick=e=>{if(e.target===light)light.hidden=true};</script>
-</body></html>
+:root{
+  --bg:#ffffff;
+  --bg-soft:#eef4fc;
+  --card:#ffffff;
+  --ink:#16202e;
+  --body:#5a6472;
+  --muted:#8b97a6;
+  --accent:#2f6bff;
+  --accent-ink:#2559d8;
+  --accent-soft:#e7f0ff;
+  --line:#e5ecf5;
+  --star:#f6b73c;
+  --shadow:0 12px 34px rgba(31,66,135,.09);
+  --r:18px;
+  --r-sm:12px;
+  --pad:clamp(20px,6vw,96px);
+  --sp:clamp(74px,9vw,130px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--body);
+  font:400 17px/1.65 "Golos Text",Arial,Helvetica,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:"Manrope",Arial,sans-serif;font-weight:800;color:var(--ink);letter-spacing:-.02em;margin:0}
+h2{font-size:clamp(29px,4vw,52px);line-height:1.08}
+h3{font-size:21px;font-weight:700;letter-spacing:-.01em}
+p{margin:0}
+::selection{background:var(--accent);color:#fff}
+::-webkit-scrollbar{width:9px;height:9px}
+::-webkit-scrollbar-thumb{background:#c9d6e8;border-radius:10px}
 
+/* ---------- helpers ---------- */
+.wrap{max-width:1280px;margin:0 auto;padding:0 var(--pad)}
+.section{padding:var(--sp) 0}
+.eyebrow{
+  display:inline-block;padding:8px 16px;border-radius:999px;
+  background:var(--accent-soft);color:var(--accent-ink);
+  font:700 11.5px/1 "Manrope",sans-serif;letter-spacing:.14em;text-transform:uppercase;
+  margin-bottom:22px;
+}
+.lead{font-size:clamp(17px,1.6vw,21px);line-height:1.55;color:var(--body);max-width:58ch}
+.js .reveal{opacity:0;transform:translateY(24px);transition:opacity .8s cubic-bezier(.16,1,.3,1),transform .8s cubic-bezier(.16,1,.3,1)}
+.js .reveal.rl{transform:translateX(-28px)}
+.js .reveal.rr{transform:translateX(28px)}
+.js .reveal.d1{transition-delay:.08s}
+.js .reveal.d2{transition-delay:.16s}
+.js .reveal.d3{transition-delay:.24s}
+.js .reveal.d4{transition-delay:.32s}
+.js .reveal.in{opacity:1;transform:none}
 
+.btn{
+  display:inline-flex;align-items:center;gap:9px;
+  padding:15px 24px;border-radius:999px;
+  font:700 14px/1 "Manrope",sans-serif;
+  white-space:nowrap;transition:transform .15s ease,background .2s ease,border-color .2s ease,color .2s ease;
+}
+.btn svg{width:16px;height:16px;flex:none}
+.btn-primary{background:var(--accent);color:#fff;box-shadow:0 10px 22px rgba(47,107,255,.26)}
+.btn-primary:hover{background:var(--accent-ink)}
+.btn-primary:active{transform:translateY(1px)}
+.btn-ghost{border:1.5px solid var(--line);color:var(--ink);background:#fff}
+.btn-ghost:hover{border-color:var(--accent);color:var(--accent)}
+.btn-ghost:active{transform:translateY(1px)}
+
+.arrowlink{
+  display:inline-flex;align-items:center;gap:8px;
+  font:700 14px/1 "Manrope",sans-serif;color:var(--accent);
+}
+.arrowlink svg{width:15px;height:15px;transition:transform .2s ease}
+.arrowlink:hover svg{transform:translate(3px,-3px)}
+
+/* ---------- preloader ---------- */
+.preloader{
+  position:fixed;inset:0;z-index:120;background:#fff;
+  display:grid;place-content:center;justify-items:center;gap:18px;
+  animation:plfail .35s ease 2s forwards;
+}
+html:not(.js) .preloader{display:none}
+.preloader.done{opacity:0;visibility:hidden;transition:opacity .35s ease,visibility .35s ease}
+.pl-logo{display:flex;align-items:center;gap:12px}
+.pl-logo img{width:44px;height:44px}
+.pl-logo b{font:800 28px/1 "Manrope",sans-serif;color:var(--ink);letter-spacing:-.02em}
+.pl-logo b span{display:block;font:600 8px/1 "Manrope",sans-serif;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-top:5px}
+.pl-track{width:min(230px,58vw);height:3px;border-radius:3px;background:var(--line);overflow:hidden}
+.pl-track i{display:block;height:100%;width:8%;border-radius:3px;background:var(--accent);animation:plload .5s cubic-bezier(.3,.7,.2,1) forwards}
+.pl-pct{font:700 11px/1 "Manrope",sans-serif;color:var(--muted);letter-spacing:.1em}
+@keyframes plload{to{width:100%}}
+@keyframes plfail{to{opacity:0;visibility:hidden}}
+
+/* ---------- scroll progress ---------- */
+.scrollprog{
+  position:fixed;top:0;left:0;height:3px;width:100%;z-index:80;
+  background:var(--accent);transform:scaleX(0);transform-origin:0 50%;
+  will-change:transform;transition:transform .08s linear;
+}
+
+/* ---------- header ---------- */
+.header{
+  position:fixed;z-index:60;inset:3px 0 auto 0;
+  height:78px;display:flex;align-items:center;
+  background:rgba(255,255,255,.82);backdrop-filter:blur(12px);
+  border-bottom:1px solid transparent;transition:height .28s ease,background .28s ease,border-color .28s ease,box-shadow .28s ease;
+}
+.header.compact{height:64px;background:#fff;border-bottom-color:var(--line);box-shadow:0 6px 24px rgba(31,66,135,.06)}
+.header .wrap{display:flex;align-items:center;justify-content:space-between;width:100%;gap:24px}
+.brand{display:flex;align-items:baseline;gap:9px;font:800 21px/1 "Manrope",sans-serif;color:var(--ink)}
+.brand span{font:600 9px/1 "Manrope",sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+.nav{display:flex;gap:30px}
+.nav a{font:500 14px/1 "Golos Text",sans-serif;color:var(--body);position:relative;padding:6px 0}
+.nav a::after{content:"";position:absolute;left:0;right:100%;bottom:0;height:2px;background:var(--accent);border-radius:2px;transition:right .25s ease}
+.nav a:hover{color:var(--ink)}
+.nav a:hover::after{right:0}
+.nav a.active{color:var(--accent-ink);font-weight:600}
+.nav a.active::after{right:0}
+.header .btn-primary{padding:12px 20px}
+.header-call svg{width:15px;height:15px}
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;overflow:hidden;
+  min-height:clamp(600px,86vh,800px);
+  display:flex;align-items:center;
+  padding:calc(78px + clamp(30px,5vw,54px)) 0 clamp(100px,12vw,150px);
+  background:
+    radial-gradient(56% 74% at 82% 32%,#dbe8ff 0%,transparent 60%),
+    radial-gradient(46% 60% at 6% 96%,#e6f0ff 0%,transparent 55%),
+    linear-gradient(180deg,#eef4fd 0%,#f7faff 70%);
+}
+.hero::after{
+  content:"";position:absolute;right:6%;top:50%;transform:translateY(-50%);
+  width:min(48vw,600px);aspect-ratio:1;
+  border-radius:50%;background:radial-gradient(circle,rgba(150,190,255,.38),transparent 70%);
+  z-index:0;pointer-events:none;
+}
+.hero-bg{
+  position:absolute;right:clamp(64px,13vw,260px);top:0;bottom:0;margin:auto 0;
+  height:min(74%,500px);width:auto;max-width:46%;z-index:1;
+  object-fit:contain;object-position:center;
+  filter:drop-shadow(0 26px 48px rgba(47,107,255,.18));
+}
+.js .hero-bg{opacity:0;transform:scale(1.1);transition:opacity 1.4s ease,transform 2s cubic-bezier(.12,.72,.2,1)}
+.js .hero.ready .hero-bg{opacity:1;transform:none}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero-inner{max-width:540px}
+.js .hero-inner>*{opacity:0;transform:translateY(18px)}
+.js .hero.ready .hero-inner>*{opacity:1;transform:none;transition:opacity .6s ease,transform .6s cubic-bezier(.16,1,.3,1)}
+.js .hero.ready .hero-inner>:nth-child(1){transition-delay:.05s}
+.js .hero.ready .hero-inner>:nth-child(2){transition-delay:.18s}
+.js .hero.ready .hero-inner>:nth-child(3){transition-delay:.31s}
+.js .hero.ready .hero-inner>:nth-child(4){transition-delay:.44s}
+.hero h1{font-size:clamp(37px,5.1vw,64px);line-height:1.05;margin:0 0 20px}
+.hero h1 .hl{color:var(--accent)}
+.hero p{font-size:clamp(16px,1.5vw,20px);line-height:1.6;color:var(--body);max-width:44ch}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
+
+.hero-scroll{
+  position:absolute;left:50%;bottom:clamp(38px,6vw,64px);transform:translateX(-50%);z-index:3;
+  width:78px;height:78px;border-radius:50%;border:0;cursor:pointer;
+  background:#fff;box-shadow:var(--shadow);display:grid;place-items:center;
+}
+.hero-scroll::after{content:"";position:absolute;inset:0;border-radius:50%;border:1.5px solid var(--accent);animation:hspulse 2.6s ease-out infinite}
+.hs-ring{position:absolute;inset:0;width:100%;height:100%;fill:var(--accent-ink);animation:hsspin 16s linear infinite}
+.hs-ring text{font:700 8px/1 "Manrope",sans-serif;letter-spacing:.13em;text-transform:uppercase}
+.hs-arr{position:relative;width:18px;height:18px;color:var(--accent);animation:hsbob 1.9s ease-in-out infinite}
+@keyframes hspulse{0%{transform:scale(1);opacity:.5}70%,100%{transform:scale(1.55);opacity:0}}
+@keyframes hsspin{to{transform:rotate(360deg)}}
+@keyframes hsbob{0%,100%{transform:translateY(-2px)}50%{transform:translateY(3px)}}
+
+/* ---------- metrics card ---------- */
+.metrics{padding:0 0 var(--sp)}
+.metrics .wrap{
+  background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);
+  display:grid;grid-template-columns:repeat(4,1fr);
+  padding:0;margin-top:calc(-1 * clamp(10px,2vw,20px));position:relative;z-index:3;
+}
+.metric{padding:30px 28px;border-right:1px solid var(--line)}
+.metric:last-child{border-right:0}
+.metric b{display:block;font:800 clamp(26px,3vw,38px)/1 "Manrope",sans-serif;color:var(--ink)}
+.metric span{display:block;margin-top:8px;font-size:13px;color:var(--muted)}
+
+/* ---------- about ---------- */
+.about{background:var(--bg-soft)}
+.about .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,6vw,78px);align-items:center}
+.about-photo{border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}
+.about-photo img{width:100%;height:100%;min-height:400px;object-fit:cover}
+.about h2{margin-bottom:20px}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:30px}
+.fact{background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:15px 16px;display:flex;gap:13px;align-items:center;font-size:14px;color:var(--ink);font-weight:500;transition:transform .25s ease,border-color .25s ease}
+.fact:hover{transform:translateY(-2px);border-color:#cfe0ff}
+.fact svg{width:40px;height:40px;padding:9px;border-radius:11px;background:var(--accent-soft);color:var(--accent);flex:none;transition:background .25s ease,color .25s ease}
+.fact:hover svg{background:var(--accent);color:#fff}
+.note{margin-top:18px;font-size:12.5px;line-height:1.6;color:var(--muted);max-width:52ch}
+
+/* ---------- services ---------- */
+.services{background:var(--bg)}
+.services-head{display:flex;flex-direction:column;align-items:flex-start;gap:14px;margin-bottom:42px;max-width:46ch}
+.services-head p{color:var(--body)}
+.svc{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{
+  position:relative;overflow:hidden;
+  background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);
+  padding:28px;display:flex;flex-direction:column;
+  transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s ease,border-color .3s ease;
+}
+.card::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:3px;background:var(--accent);transform:scaleX(0);transform-origin:0 50%;transition:transform .38s cubic-bezier(.16,1,.3,1)}
+.card:hover{transform:translateY(-5px);border-color:#cfe0ff;box-shadow:0 20px 46px rgba(31,66,135,.15)}
+.card:hover::after{transform:scaleX(1)}
+.card .ico{width:52px;height:52px;padding:12px;border-radius:14px;background:var(--accent-soft);color:var(--accent);margin-bottom:18px;transition:background .3s ease,color .3s ease}
+.card:hover .ico{background:var(--accent);color:#fff}
+.card .ico svg{width:100%;height:100%}
+.card h3{margin:0 0 8px}
+.card p{font-size:14.5px;color:var(--body);flex:1}
+.card .arrowlink{margin-top:18px}
+.svc-more{margin-top:26px;display:flex;justify-content:flex-start}
+
+/* ---------- quote band ---------- */
+.band{background:var(--bg-soft)}
+.band p.intro{max-width:46ch;color:var(--body);font-size:clamp(14px,1.3vw,16px);letter-spacing:.02em}
+.band blockquote{
+  margin:20px 0 16px;max-width:22ch;
+  border-left:3px solid var(--accent);padding-left:24px;
+  font:800 clamp(27px,3.9vw,50px)/1.1 "Manrope",sans-serif;color:var(--ink);letter-spacing:-.02em;
+}
+.band cite{font-style:normal;font-size:13px;color:var(--muted);letter-spacing:.02em;padding-left:27px}
+
+/* ---------- gallery ---------- */
+.gallery-head{margin-bottom:36px}
+.gal{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.gal figure{margin:0}
+.gal button{display:block;width:100%;padding:0;border:0;background:none;border-radius:var(--r);overflow:hidden;cursor:zoom-in;box-shadow:var(--shadow)}
+.gal img{width:100%;height:clamp(260px,34vw,420px);object-fit:cover;transition:transform .5s ease}
+.gal button:hover img{transform:scale(1.04)}
+.gal figcaption{margin-top:12px;font-size:13px;color:var(--muted)}
+@media(max-width:700px){.gal{grid-template-columns:1fr}}
+
+/* ---------- video ---------- */
+.video{background:var(--bg-soft)}
+.video .wrap{display:grid;grid-template-columns:1fr auto;gap:clamp(30px,6vw,72px);align-items:center}
+.video-copy p{margin:20px 0 28px;max-width:42ch;color:var(--body)}
+.video-clip{position:relative;display:block;width:min(310px,78vw);aspect-ratio:9/16;max-height:540px;
+  border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);background:#e8f0fb;cursor:pointer;border:0;padding:0}
+.video-clip img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
+.video-clip:hover img{transform:scale(1.04)}
+.video-clip iframe{width:100%;height:100%;border:0;display:block}
+.video-clip .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:66px;height:66px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;box-shadow:0 12px 30px rgba(47,107,255,.42);transition:transform .2s ease}
+.video-clip:hover .play{transform:translate(-50%,-50%) scale(1.06)}
+.video-clip .play svg{width:22px;height:22px;margin-left:3px}
+.video-clip.playing img,.video-clip.playing .play{display:none}
+
+/* ---------- news ---------- */
+.news-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:20px}
+.news-item{
+  display:grid;grid-template-columns:180px 1fr auto;gap:30px;align-items:start;
+  padding:28px 22px;margin:0 -22px;border-radius:12px;border-top:1px solid var(--line);
+  transition:background .25s ease;
+}
+.news-item:first-child{border-radius:0 0 12px 12px}
+.news-item:last-child{border-bottom:1px solid var(--line)}
+.news-item:hover{background:linear-gradient(90deg,var(--accent-soft),transparent 62%)}
+.news-item .kind{font:700 11.5px/1.4 "Manrope",sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--accent-ink)}
+.news-item h3{font-size:19px;margin-bottom:9px;transition:color .25s ease}
+.news-item:hover h3{color:var(--accent-ink)}
+.news-item p{font-size:14.5px;color:var(--body);max-width:60ch}
+.news-item .arrowlink{white-space:nowrap}
+
+/* ---------- reviews ---------- */
+.reviews{background:var(--bg-soft)}
+.reviews-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:42px}
+.reviews-head .score{display:flex;align-items:baseline;gap:12px}
+.reviews-head .score b{font:800 38px/1 "Manrope",sans-serif;color:var(--ink)}
+.reviews-head .score span{font-size:13px;color:var(--muted)}
+.review-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:32px}
+.review-stats>div{background:#fff;border:1px solid var(--line);border-radius:var(--r-sm);padding:22px 22px 20px;transition:transform .25s ease,border-color .25s ease}
+.review-stats>div:hover{transform:translateY(-3px);border-color:#cfe0ff}
+.review-stats b{display:block;font:800 clamp(27px,3.3vw,38px)/1 "Manrope",sans-serif;color:var(--accent)}
+.review-stats span{display:block;margin-top:9px;font-size:13.5px;line-height:1.4;color:var(--body)}
+.reviews-note{margin:14px 0 34px;font-size:12.5px;color:var(--muted)}
+.reviews-more{margin-top:32px}
+.review-grid{columns:2;column-gap:18px}
+.review{
+  break-inside:avoid;margin-bottom:18px;
+  background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:26px;
+  transition:transform .3s cubic-bezier(.16,1,.3,1),box-shadow .3s ease,border-color .3s ease;
+}
+.review:hover{transform:translateY(-4px);border-color:#cfe0ff;box-shadow:0 18px 42px rgba(31,66,135,.14)}
+.stars{display:flex;gap:3px;margin-bottom:14px}
+.stars svg{width:16px;height:16px;color:var(--star)}
+.review p{font-size:15.5px;line-height:1.55;color:#3f4a59}
+.review footer{margin-top:18px;padding-top:15px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:12.5px}
+.review footer b{font-family:"Manrope",sans-serif;color:var(--ink);font-weight:700}
+.review footer a{color:var(--muted)}
+.review footer a:hover{color:var(--accent)}
+
+/* ---------- contact ---------- */
+.contact{background:var(--bg)}
+.contact-top{display:grid;grid-template-columns:1fr 1fr;gap:clamp(32px,6vw,76px);align-items:start;margin-bottom:48px}
+.contact h2{margin-bottom:22px}
+.phone{display:inline-block;font:800 clamp(25px,3.2vw,42px)/1 "Manrope",sans-serif;color:var(--ink);margin-bottom:12px;letter-spacing:-.02em}
+.phone:hover{color:var(--accent)}
+.contact address{font-style:normal;font-size:15.5px;color:var(--body)}
+.transit{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:9px}
+.transit li{font-size:14px;line-height:1.45;color:var(--body);padding-left:20px;position:relative}
+.transit li::before{content:"";position:absolute;left:0;top:7px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.transit li b{color:var(--ink);font:700 13px/1 "Manrope",sans-serif}
+.contact-cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.hours{background:#fff;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:22px 24px}
+.hours div{display:flex;justify-content:space-between;gap:16px;padding:11px 0;font-size:14.5px;color:var(--ink);border-bottom:1px solid var(--line)}
+.hours div:last-child{border-bottom:0}
+.hours span{color:var(--muted)}
+.map{position:relative;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);height:clamp(340px,42vw,500px)}
+.map iframe{width:100%;height:100%;border:0;filter:grayscale(.2)}
+.map-card{position:absolute;left:18px;bottom:18px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px 18px;box-shadow:var(--shadow)}
+.map-card b{display:block;font-family:"Manrope",sans-serif;color:var(--ink);font-size:16px}
+.map-card small{color:var(--muted);font-size:12.5px}
+
+/* ---------- footer ---------- */
+.footer{background:var(--bg-soft);border-top:1px solid var(--line);padding:42px 0}
+.footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+.footer p{font-size:12px;color:var(--muted);max-width:44ch}
+.footer-links{display:flex;gap:20px;font:600 13px/1 "Manrope",sans-serif;color:var(--body)}
+.footer-links a:hover{color:var(--accent)}
+
+/* ---------- quick + lightbox ---------- */
+.quick{position:fixed;right:16px;bottom:16px;z-index:55;display:flex;flex-direction:column;gap:9px}
+.quick a{width:48px;height:48px;border-radius:50%;background:var(--accent);color:#fff;display:grid;place-items:center;box-shadow:0 12px 28px rgba(47,107,255,.36)}
+.quick a svg{width:19px;height:19px}
+.quick a.up{background:#fff;color:var(--ink);border:1px solid var(--line);box-shadow:var(--shadow)}
+.lightbox{position:fixed;z-index:90;inset:0;background:rgba(16,26,44,.9);display:grid;place-items:center;padding:24px}
+.lightbox[hidden]{display:none}
+.lightbox img{max-width:92vw;max-height:84vh;border-radius:10px}
+.lightbox button{position:absolute;top:18px;right:18px;width:44px;height:44px;border:0;border-radius:50%;background:#fff;color:var(--ink);font-size:22px;cursor:pointer}
+
+@keyframes rise{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+
+/* ---------- responsive ---------- */
+@media(max-width:1000px){
+  .nav{display:none}
+  .hero{min-height:auto;padding-bottom:clamp(110px,20vw,150px)}
+  .about .wrap,.video .wrap,.contact-top{grid-template-columns:1fr}
+  .hero-bg{height:auto;width:min(34%,150px);max-width:none;top:clamp(84px,16vw,108px);bottom:auto;margin:0;right:4px;opacity:.12;filter:none}
+  .hero::after{width:70vw;right:-22%;top:0}
+  .review-stats{grid-template-columns:1fr}
+  .about-photo{order:-1}
+  .news-item{grid-template-columns:1fr;gap:12px}
+  .news-item .arrowlink{margin-top:4px}
+}
+@media(max-width:620px){
+  .hero-bg{display:none}
+  .metrics .wrap{grid-template-columns:1fr 1fr}
+  .metric{border-right:0;border-bottom:1px solid var(--line)}
+  .metric:nth-child(odd){border-right:1px solid var(--line)}
+  .metric:nth-last-child(-n+2){border-bottom:0}
+  .facts,.svc{grid-template-columns:1fr}
+  .review-grid{columns:1}
+  .hero-scroll{width:62px;height:62px;bottom:clamp(28px,7vw,42px)}
+  .gallery-head,.news-head,.reviews-head{flex-direction:column;align-items:flex-start}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;scroll-behavior:auto!important}
+  .js .reveal{opacity:1!important;transform:none!important;transition:none}
+  .js .hero-bg{opacity:1!important;transform:none!important;transition:none}
+  .js .hero .hero-inner>*{opacity:1!important;transform:none!important;transition:none}
+  .preloader{animation:none}
+  .scrollprog{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="preloader" id="preloader">
+  <div class="pl-logo">
+    <img src="public/favicon.svg" alt="">
+    <b>АБЛ<span>стоматология</span></b>
+  </div>
+  <div class="pl-track"><i id="plBar"></i></div>
+  <div class="pl-pct" id="plPct">0%</div>
+</div>
+
+<div class="scrollprog" id="scrollprog"></div>
+
+<header class="header" id="header">
+  <div class="wrap">
+    <a class="brand" href="#top">АБЛ<span>стоматология</span></a>
+    <nav class="nav">
+      <a href="#about">О клинике</a>
+      <a href="#services">Услуги</a>
+      <a href="prices.html">Цены</a>
+      <a href="#gallery">Клиника</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="btn btn-primary header-call" href="tel:+79181650111">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 3.5a5 5 0 0 1 5 5M14.5 7a2 2 0 0 1 2 2M8 5l2 4-2 1.5a11 11 0 0 0 5.5 5.5L15 19l4 2a2 2 0 0 1-1 2.5A16.5 16.5 0 0 1 2 8 2 2 0 0 1 4.5 6z"/></svg>
+      +7 918 165-01-11
+    </a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <img class="hero-bg" src="public/hero-logo.png" alt="Логотип стоматологии «Абл»" fetchpriority="high">
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="eyebrow">Краснодар · Уральская, 71/3</span>
+      <h1>Здесь <span class="hl">спокойно</span> лечить зубы</h1>
+      <p>Диагностика и лечение в одном месте, внимательная команда и честный план без навязанных процедур.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="tel:+79181650111">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 3.5a5 5 0 0 1 5 5M14.5 7a2 2 0 0 1 2 2M8 5l2 4-2 1.5a11 11 0 0 0 5.5 5.5L15 19l4 2a2 2 0 0 1-1 2.5A16.5 16.5 0 0 1 2 8 2 2 0 0 1 4.5 6z"/></svg>
+          Позвонить
+        </a>
+        <a class="btn btn-ghost" href="https://t.me/ABL_clinic" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3 2 11l6 2 2 7 3-4 5 4z"/></svg>
+          Telegram
+        </a>
+      </div>
+    </div>
+  </div>
+  <button class="hero-scroll" id="heroScroll" type="button" aria-label="Перейти к разделу «О клинике»">
+    <svg class="hs-ring" viewBox="0 0 100 100" aria-hidden="true">
+      <defs><path id="hsCirc" d="M50,50 m-33,0 a33,33 0 1,1 66,0 a33,33 0 1,1 -66,0"/></defs>
+      <text textLength="204" lengthAdjust="spacing"><textPath href="#hsCirc" startOffset="0">листайте вниз • о клинике • </textPath></text>
+    </svg>
+    <svg class="hs-arr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v13M6 12l6 6 6-6"/></svg>
+  </button>
+</section>
+
+<!-- METRICS -->
+<section class="metrics">
+  <div class="wrap">
+    <div class="metric"><b data-count="5" data-dec="1">5,0</b><span>рейтинг на Яндекс&nbsp;Картах</span></div>
+    <div class="metric"><b data-count="97">97</b><span>оценок пациентов</span></div>
+    <div class="metric"><b data-count="75">75</b><span>отзывов о лечении</span></div>
+    <div class="metric"><b data-count="2026">2026</b><span>«Хорошее место» на&nbsp;Картах</span></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section about" id="about">
+  <div class="wrap">
+    <div class="reveal rl">
+      <h2>Всё необходимое — на одном приёме</h2>
+      <p class="lead">Работаем с ассистентом, проводим диагностику на месте и ведём комплексное лечение, чтобы вам не пришлось ездить по разным клиникам ради одной задачи.</p>
+      <div class="facts">
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M8 2v4M16 2v4M3 10h18"/></svg>Предварительная запись</div>
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg>Оплата картой</div>
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="5" r="2"/><path d="M5 21l3-9 4-1 4 1 3 9M9 12l-1 5M15 12l1 5"/></svg>Доступный вход</div>
+        <div class="fact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg>Парковка рядом</div>
+      </div>
+    </div>
+    <div class="about-photo reveal rr">
+      <img src="public/reception.webp" alt="Стойка ресепшена стоматологии «Абл» с живыми цветами">
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section services" id="services">
+  <div class="wrap">
+    <div class="services-head reveal">
+      <span class="eyebrow">Направления</span>
+      <h2>Сохраняем и восстанавливаем улыбку</h2>
+      <p>Направление подбираем после осмотра. Стоимость конкретной процедуры уточняйте при записи.</p>
+    </div>
+    <div class="svc">
+      <article class="card reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c3 0 5 2 5 5 0 2-1 3-1 6s-1 5-2 5-1-3-2-3-1 3-2 3-2-2-2-5-1-4-1-6c0-3 2-5 5-5z"/></svg></div>
+        <h3>Лечение</h3>
+        <p>Кариес и корневые каналы, восстановление формы зуба, забота о дёснах.</p>
+        <a class="arrowlink" href="prices.html">Цены <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </article>
+      <article class="card reveal d1">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 8 8 11 4.5-3 8-6 8-11V5z"/><path d="m9 12 2 2 4-4"/></svg></div>
+        <h3>Профилактика</h3>
+        <p>Профессиональная гигиена и регулярные осмотры.</p>
+        <a class="arrowlink" href="prices.html">Цены <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </article>
+      <article class="card reveal d2">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 3 8v8l9 5 9-5V8z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></div>
+        <h3>Восстановление</h3>
+        <p>Коронки, протезы и виниры.</p>
+        <a class="arrowlink" href="prices.html">Цены <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </article>
+      <article class="card reveal d3">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l7 7M9 6 6 9M14 10l6 6a2 2 0 0 1-3 3l-6-6M12 12l-6 6a2 2 0 0 1-3-3l6-6"/></svg></div>
+        <h3>Хирургия</h3>
+        <p>Удаление зубов и имплантация по показаниям.</p>
+        <a class="arrowlink" href="prices.html">Цены <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </article>
+    </div>
+    <div class="svc-more reveal">
+      <a class="btn btn-ghost" href="prices.html">Все услуги и цены <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- QUOTE BAND -->
+<section class="section band">
+  <div class="wrap reveal">
+    <p class="intro">Объясняем план лечения простыми словами и держим комфортный темп на приёме.</p>
+    <blockquote>«Пришёл — выявили проблему — решили проблему»</blockquote>
+    <cite>Из отзыва на Яндекс Картах</cite>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+  <div class="wrap">
+    <div class="gallery-head reveal">
+      <h2>Как выглядит клиника</h2>
+    </div>
+    <div class="gal">
+      <figure class="reveal"><button data-photo="public/clinic-exterior.webp"><img src="public/clinic-exterior.webp" alt="Фасад и вход в стоматологию «Абл» на Уральской"></button><figcaption>Вход с Уральской улицы</figcaption></figure>
+      <figure class="reveal d1"><button data-photo="public/reception.webp"><img src="public/reception.webp" alt="Ресепшен и зона ожидания стоматологии «Абл»"></button><figcaption>Ресепшен и зона ожидания</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section class="section video">
+  <div class="wrap">
+    <div class="video-copy reveal rl">
+      <h2>Загляните к нам</h2>
+      <p>Показываем клинику изнутри — короткий ролик из нашего сообщества ВКонтакте. Нажмите на превью, чтобы посмотреть здесь.</p>
+      <a class="btn btn-primary" href="https://vk.ru/abl_clinic" target="_blank" rel="noopener">
+        Сообщество ВКонтакте
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>
+      </a>
+    </div>
+    <button class="video-clip reveal rr" id="videoClip" type="button" aria-label="Смотреть ролик клиники">
+      <img src="public/preload.jpg" alt="Ролик клиники «Абл»">
+      <span class="play"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+    </button>
+  </div>
+</section>
+
+<!-- NEWS -->
+<section class="section" id="news">
+  <div class="wrap">
+    <div class="news-head reveal">
+      <h2>Новости клиники</h2>
+      <a class="arrowlink" href="https://vk.ru/abl_clinic" target="_blank" rel="noopener">Сообщество ВКонтакте <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+    </div>
+    <div>
+      <div class="news-item reveal">
+        <div class="kind">Пост сообщества</div>
+        <div>
+          <h3>Нам 3 года</h3>
+          <p>«Стоматология АБЛ официально стала совсем взрослой. Три года вместе с вами». В публикации анонсирована акция на профессиональную гигиену — условия действовали на момент публикации.</p>
+        </div>
+        <a class="arrowlink" href="https://vk.ru/wall-232420923_222" target="_blank" rel="noopener">Читать <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </div>
+      <div class="news-item reveal d1">
+        <div class="kind">Клип сообщества</div>
+        <div>
+          <h3>Клиника в движении</h3>
+          <p>Короткое видео из официального сообщества «АБЛ Стоматология» — знакомство с пространством клиники.</p>
+        </div>
+        <a class="arrowlink" href="https://vk.ru/clip-232420923_456239085" target="_blank" rel="noopener">Смотреть <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </div>
+      <div class="news-item reveal d2">
+        <div class="kind">Клип сообщества</div>
+        <div>
+          <h3>Будни «Абл»</h3>
+          <p>Ещё один клип клиники — ежедневная работа команды и общий взгляд на кабинеты.</p>
+        </div>
+        <a class="arrowlink" href="https://vk.ru/clip-232420923_456239067" target="_blank" rel="noopener">Смотреть <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="section reviews" id="reviews">
+  <div class="wrap">
+    <div class="reviews-head reveal">
+      <h2>Что говорят пациенты</h2>
+      <div class="score"><b>5,0</b><span>75 отзывов · 97 оценок на Яндекс Картах</span></div>
+    </div>
+    <div class="review-stats">
+      <div class="reveal"><b data-count="98" data-suf="%">98%</b><span>довольны качеством лечения</span></div>
+      <div class="reveal d1"><b data-count="97" data-suf="%">97%</b><span>отмечают вежливость персонала</span></div>
+      <div class="reveal d2"><b data-count="96" data-suf="%">96%</b><span>довольны уровнем сервиса</span></div>
+    </div>
+    <p class="reviews-note">Оценки по критериям — из отзывов пациентов на Яндекс Картах.</p>
+    <div class="review-grid reveal">
+      <article class="review">
+        <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg></div>
+        <p>Делали чистку зубов и обнаружили кариес. Всё убрали в один приём вместе с чисткой и заменой пломбы. Быстро и очень комфортно.</p>
+        <footer><b>Артур К.</b><a href="https://yandex.ru/maps/org/abl/69975907341/reviews/" target="_blank" rel="noopener">Яндекс Карты</a></footer>
+      </article>
+      <article class="review">
+        <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg></div>
+        <p>Со мной вели диалог, всё подробно объясняли и постоянно спрашивали о самочувствии. Оборудование для диагностики было на месте.</p>
+        <footer><b>Артём Г.</b><a href="https://yandex.ru/maps/org/abl/69975907341/reviews/" target="_blank" rel="noopener">Яндекс Карты</a></footer>
+      </article>
+      <article class="review">
+        <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg></div>
+        <p>Всё быстро, чётко и, самое главное, не больно. Персонал клиники всегда вежливый и внимательный.</p>
+        <footer><b>Анастасия Л.</b><a href="https://yandex.ru/maps/org/abl/69975907341/reviews/" target="_blank" rel="noopener">Яндекс Карты</a></footer>
+      </article>
+      <article class="review">
+        <div class="stars"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .9-5 4.8 1.3 7-6.6-3.5L6.4 21l1.3-7-5-4.8 7-.9z"/></svg></div>
+        <p>Работают действительно профессионалы, знающие своё дело. Быстро и качественно. Ходят все члены нашей семьи.</p>
+        <footer><b>Алексей М.</b><a href="https://yandex.ru/maps/org/abl/69975907341/reviews/" target="_blank" rel="noopener">Яндекс Карты</a></footer>
+      </article>
+    </div>
+    <div class="reviews-more reveal">
+      <a class="btn btn-ghost" href="https://yandex.ru/maps/org/abl/69975907341/reviews/" target="_blank" rel="noopener">
+        Смотреть больше отзывов на Яндекс Картах
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contacts">
+  <div class="wrap">
+    <div class="contact-top">
+      <div class="reveal rl">
+        <span class="eyebrow">Контакты</span>
+        <h2>Запланируем ваш визит</h2>
+        <a class="phone" href="tel:+79181650111">+7 (918) 165-01-11</a>
+        <address>Краснодар, Уральская ул., 71, корп. 3</address>
+        <ul class="transit">
+          <li>Район ХБК, пересечение улиц Стасова / Уральская</li>
+          <li><b>Трамвай</b> 8, 9, 10, 20 — остановка «Хладокомбинат»</li>
+          <li><b>Маршрутка</b> 34, 51, 93, 77</li>
+          <li><b>Автобус</b> 2</li>
+        </ul>
+        <div class="contact-cta">
+          <a class="btn btn-primary" href="tel:+79181650111">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 3.5a5 5 0 0 1 5 5M14.5 7a2 2 0 0 1 2 2M8 5l2 4-2 1.5a11 11 0 0 0 5.5 5.5L15 19l4 2a2 2 0 0 1-1 2.5A16.5 16.5 0 0 1 2 8 2 2 0 0 1 4.5 6z"/></svg>
+            Позвонить
+          </a>
+          <a class="btn btn-ghost" href="https://t.me/ABL_clinic" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 3 2 11l6 2 2 7 3-4 5 4z"/></svg>
+            Telegram
+          </a>
+          <a class="btn btn-ghost" href="https://yandex.ru/maps/?rtext=~45.033400%2C39.042390&rtt=auto" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-5.7 7-12a7 7 0 1 0-14 0c0 6.3 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            Маршрут
+          </a>
+        </div>
+      </div>
+      <div class="hours reveal rr">
+        <div><span>Понедельник — пятница</span> 09:00 — 20:00</div>
+        <div><span>Суббота</span> 10:00 — 18:00</div>
+        <div><span>Воскресенье</span> по записи</div>
+        <div><span>Запись</span> по телефону и в Telegram</div>
+      </div>
+    </div>
+    <div class="map reveal">
+      <iframe title="Стоматология «Абл» на Яндекс Картах" loading="lazy" src="https://yandex.ru/map-widget/v1/?ll=39.042390%2C45.033400&mode=search&oid=69975907341&ol=biz&z=17" allowfullscreen></iframe>
+      <div class="map-card">
+        <b>Абл</b>
+        <small>Уральская ул., 71, корп. 3 · 5,0</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="wrap">
+    <a class="brand" href="#top">АБЛ<span>стоматология</span></a>
+    <p>На сайте — справочная информация. Об услугах и условиях расскажем при записи.</p>
+    <div class="footer-links">
+      <a href="https://vk.ru/abl_clinic" target="_blank" rel="noopener">ВКонтакте</a>
+      <a href="https://t.me/ABL_clinic" target="_blank" rel="noopener">Telegram</a>
+      <a href="https://yandex.ru/maps/org/abl/69975907341" target="_blank" rel="noopener">Яндекс Карты</a>
+    </div>
+  </div>
+</footer>
+
+<div class="quick">
+  <a href="tel:+79181650111" aria-label="Позвонить"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15.5 3.5a5 5 0 0 1 5 5M14.5 7a2 2 0 0 1 2 2M8 5l2 4-2 1.5a11 11 0 0 0 5.5 5.5L15 19l4 2a2 2 0 0 1-1 2.5A16.5 16.5 0 0 1 2 8 2 2 0 0 1 4.5 6z"/></svg></a>
+  <a class="up" href="#top" aria-label="Наверх"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg></a>
+</div>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button id="lb-close" aria-label="Закрыть">×</button>
+  <img id="lb-img" alt="Просмотр фотографии">
+</div>
+
+<script>
+(function(){
+  document.documentElement.className='js';
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- preloader + hero reveal (layer 1: photo, layer 2: text) ---- */
+  var pre=document.getElementById('preloader'),
+      plBar=document.getElementById('plBar'),
+      plPct=document.getElementById('plPct'),
+      hero=document.querySelector('.hero'),
+      started=false;
+
+  function startHero(){
+    if(started)return; started=true;
+    pre.classList.add('done');
+    hero.classList.add('ready');
+  }
+  if(reduce){
+    if(plPct)plPct.textContent='100%';
+    startHero();
+  }else{
+    // animate the % readout alongside the CSS bar
+    var t0=performance.now(),dur=430;
+    (function pct(now){
+      var p=Math.min((now-t0)/dur,1);
+      if(plPct)plPct.textContent=Math.round(p*100)+'%';
+      if(p<1)requestAnimationFrame(pct);
+    })(t0);
+    var kick=function(){setTimeout(startHero,380);};
+    if(document.readyState==='complete')kick();
+    else addEventListener('load',kick);
+    setTimeout(startHero,1700); // hard failsafe
+  }
+
+  /* ---- scroll progress bar above the header ---- */
+  var sp=document.getElementById('scrollprog'),spTick=false;
+  function spUpd(){
+    var d=document.documentElement,max=d.scrollHeight-d.clientHeight;
+    sp.style.transform='scaleX('+(max>0?Math.min(d.scrollTop/max,1):0)+')';
+    spTick=false;
+  }
+  addEventListener('scroll',function(){if(!spTick){spTick=true;requestAnimationFrame(spUpd);}},{passive:true});
+  spUpd();
+
+  /* ---- header compact ---- */
+  var header=document.getElementById('header');
+  var sentinel=document.createElement('div');
+  sentinel.style.cssText='position:absolute;top:0;height:40px;width:1px';
+  document.body.prepend(sentinel);
+  new IntersectionObserver(function(e){
+    header.classList.toggle('compact',!e[0].isIntersecting);
+  }).observe(sentinel);
+
+  /* ---- reveal on scroll (alternating direction + delay via classes) ---- */
+  var els=document.querySelectorAll('.reveal');
+  var io=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}
+    });
+  },{rootMargin:'0px 0px -8% 0px'});
+  els.forEach(function(el){io.observe(el);});
+  setTimeout(function(){els.forEach(function(el){el.classList.add('in');});},3000);
+
+  /* ---- count-up for significant numbers (layer 3) ---- */
+  function countUp(el){
+    var target=parseFloat(el.dataset.count),
+        dec=+(el.dataset.dec||0),
+        suf=el.dataset.suf||'',
+        t0=null,dur=1500;
+    function fmt(v){return (dec?v.toFixed(dec).replace('.',','):Math.round(v).toString())+suf;}
+    function tick(ts){
+      if(!t0)t0=ts;
+      var p=Math.min((ts-t0)/dur,1),e=1-Math.pow(1-p,3);
+      el.textContent=fmt(target*e);
+      if(p<1)requestAnimationFrame(tick); else el.textContent=fmt(target);
+    }
+    requestAnimationFrame(tick);
+  }
+  var cio=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(!en.isIntersecting)return;
+      en.target.querySelectorAll('[data-count]').forEach(function(b){
+        if(reduce){
+          var d=+(b.dataset.dec||0);
+          b.textContent=(d?parseFloat(b.dataset.count).toFixed(d).replace('.',','):b.dataset.count)+(b.dataset.suf||'');
+        }else countUp(b);
+      });
+      cio.unobserve(en.target);
+    });
+  },{threshold:.4});
+  document.querySelectorAll('.metrics,.review-stats').forEach(function(s){cio.observe(s);});
+
+  /* ---- scrollspy: active nav link ---- */
+  var navlinks={};
+  document.querySelectorAll('.nav a[href^="#"]').forEach(function(a){navlinks[a.getAttribute('href').slice(1)]=a;});
+  var spy=new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if(en.isIntersecting){
+        Object.keys(navlinks).forEach(function(k){navlinks[k].classList.toggle('active',k===en.target.id);});
+      }
+    });
+  },{rootMargin:'-45% 0px -50% 0px'});
+  ['about','services','gallery','reviews','contacts'].forEach(function(id){
+    var s=document.getElementById(id); if(s)spy.observe(s);
+  });
+
+  /* ---- hero central widget → next section ---- */
+  var hs=document.getElementById('heroScroll');
+  if(hs)hs.onclick=function(){
+    var t=document.getElementById('about');
+    if(t)t.scrollIntoView({behavior:reduce?'auto':'smooth'});
+  };
+
+  /* ---- click-to-play VK clip ---- */
+  var vc=document.getElementById('videoClip');
+  if(vc)vc.addEventListener('click',function(){
+    if(vc.classList.contains('playing'))return;
+    vc.classList.add('playing');
+    vc.innerHTML='<iframe src="https://vk.ru/clip_ext.php?oid=-232420923&id=456239017&autoplay=1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen title="Ролик клиники «Абл» ВКонтакте"></iframe>';
+  });
+
+  /* ---- lightbox ---- */
+  var lb=document.getElementById('lightbox'),lbImg=document.getElementById('lb-img');
+  document.querySelectorAll('[data-photo]').forEach(function(b){
+    b.onclick=function(){lbImg.src=b.dataset.photo;lb.hidden=false;};
+  });
+  var close=function(){lb.hidden=true;lbImg.removeAttribute('src');};
+  document.getElementById('lb-close').onclick=close;
+  lb.onclick=function(e){if(e.target===lb)close();};
+  addEventListener('keydown',function(e){if(e.key==='Escape'&&!lb.hidden)close();});
+})();
+</script>
+</body>
+</html>
